@@ -1,0 +1,65 @@
+.gradient {
+	background-image:
+		radial-gradient(
+			white, #8a8a8a
+		);
+	margin-bottom: 15%;
+	margin-top: 5%;
+}
+
+.page_header {
+	font-family: "Times New Roman";
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: -10px;
+}
+
+.site_link {
+	border: solid;
+	border-right: transparent;
+	border-left: transparent;
+	word-spacing: 30px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.category {
+	margin-left: 20%;
+	margin-right: 20%;
+	text-decoration: underline;
+}
+
+.job_position {
+	font-style: italic;
+	margin-left: 22%;
+	margin-right: 22%;
+}
+
+.description {
+	margin-left: 22%;
+	margin-right: 22%;
+}
+
+.button-NAME {
+     background-color: #8E8E8E;
+     color: black;
+     border-style: solid;
+     border-color: black;
+     padding: 0px 7px; 
+}
+
+.button-NAME:hover {
+     background: #242424;
+     color: white;
+     text-decoration: none;  
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+ul {
+	margin: -15px;
+}
