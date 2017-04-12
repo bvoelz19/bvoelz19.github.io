@@ -66,6 +66,11 @@ canvas{
   vertical-align: bottom;
 }
 
+#links {
+      color: #2C7086;
+
+}
+
 #text {
     position: absolute;
     margin: auto;
@@ -93,7 +98,7 @@ canvas{
 
 }
 
-* Wrapper */
+/* Wrapper */
 .icon-button {
   background-color: white;
   border-radius: 3.6rem;
