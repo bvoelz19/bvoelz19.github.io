@@ -82,7 +82,7 @@ canvas{
     width: 100%;
     text-align: center;
     display: block;
-    background: #FFF;
+    background: transparent;
 }
 
 #title {
