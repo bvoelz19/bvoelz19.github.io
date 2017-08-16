@@ -6,3 +6,8 @@ body {
 h1 {
         font-size: 48px;
 }
+
+#description {
+        margin-left: 10%;
+        margin-right: 10%;
+}
