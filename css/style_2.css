@@ -7,6 +7,10 @@ h1 {
         font-size: 48px;
 }
 
+#links {
+        color: 'white';
+}
+
 #description {
         margin-left: 10%;
         margin-right: 10%;

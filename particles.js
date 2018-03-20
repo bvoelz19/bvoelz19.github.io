@@ -7,10 +7,28 @@
 /* v2.0.0
 /* ----------------------------------------------- */
 
+function getColor()
+{
+  var colorMap = {
+    0 : '#27B4E3',
+    1 : '#6C27E3',
+  }
+  var randomKey = Math.floor(Math.random() * Math.floor(Object.keys(colorMap).length));
+  console.log(randomKey);
+  return colorMap[randomKey];
+};
+
 var pJS = function(tag_id, params){
 
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
-
+  var randomColor = getColor();
+  console.log('randomColor: ' + randomColor);
+  document.getElementById('description').style.color = randomColor.valueOf();
+  document.getElementById('tufts').style.color = randomColor.valueOf();
+  var links = document.getElementsByClassName('links')
+  for (var i = 0; i < links.length; i++) {
+    links[i].style.color = randomColor.valueOf();
+  }
   /* particles.js variables with default values */
   this.pJS = {
     canvas: {
@@ -27,13 +45,13 @@ var pJS = function(tag_id, params){
         }
       },
       color: {
-        value: '#fff'
+        value: randomColor.valueOf(),
       },
       shape: {
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#ff0000'
+          color: randomColor.valueOf()
         },
         polygon: {
           nb_sides: 5
@@ -67,7 +85,7 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#fff',
+        color: randomColor.valueOf(),
         opacity: 1,
         width: 1
       },
