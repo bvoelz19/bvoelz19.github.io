@@ -23,7 +23,7 @@
   <div id="text">
   <div id="title">Brendan Voelz</div>
   <div id="description">I'm a Computer Science student at <a id='tufts' href="https://tufts.edu">Tufts University</a><br>interested in software engineering</div>
-  <div>
+  <div id="links">
     </br>
     <a class='links' href="resume.pdf">Resume</a> •
     <a class='links' href="https://github.com/bvoelz19">GitHub</a> •
@@ -40,6 +40,12 @@
 <!-- scripts -->
 <script src="particles.js"></script>
 <script src="js/app.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
+<script>
+        $('#title').hide().fadeIn(1500);
+        $('#description').hide().delay(1000).fadeIn(2000);
+        $('#links').hide().delay(3000).fadeIn(2000);
+</script>
 
 </body>
 </html>
