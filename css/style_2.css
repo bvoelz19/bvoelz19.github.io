@@ -9,9 +9,11 @@ h1 {
 
 #links {
         color: 'white';
+        padding-top: 64px;
 }
 
 #description {
         margin-left: 10%;
         margin-right: 10%;
+        padding-bottom: 50px;
 }

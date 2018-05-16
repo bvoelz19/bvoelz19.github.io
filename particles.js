@@ -14,7 +14,6 @@ function getColor()
     1 : '#2C7086',
   }
   var randomKey = Math.floor(Math.random() * Math.floor(Object.keys(colorMap).length));
-  console.log(randomKey);
   return colorMap[randomKey];
 };
 
@@ -22,7 +21,6 @@ var pJS = function(tag_id, params){
 
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
   var randomColor = getColor();
-  console.log('randomColor: ' + randomColor);
   //document.getElementById('description').style.color = randomColor.valueOf();
   document.getElementById('tufts').style.color = randomColor.valueOf();
   var links = document.getElementsByClassName('links')

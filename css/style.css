@@ -12,6 +12,7 @@ a:link {
   -moz-transition: color 1s, font-size 1s;
   -o-transition: color 1s, font-size 1s;
   transition: color 1s, font-size 1s;
+  padding-right: 5px;
 }
 
 a:hover {
@@ -75,7 +76,7 @@ canvas{
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
-
+    padding-bottom: 10px;
 }
 
 /* Wrapper */
