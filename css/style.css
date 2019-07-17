@@ -47,13 +47,46 @@ canvas{
   vertical-align: bottom;
 }
 
+.gifs {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Laptop/desktop screens */
+img {
+  width: 15%;
+}
+
+/* Media query for responsive design on mobile devices */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  img {
+    width: 90%;
+  }
+}
+
+
+
+h3 {
+  margin-left: 5%;
+}
+
+li {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#arrow {
+  margin-left: 5%;
+}
+
 #content {
     
 }
 
 #links {
       color: #2C7086;
-
+      margin-top: 10px;
 }
 
 #text {
@@ -80,6 +113,12 @@ canvas{
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
+}
+
+/* Projects */
+h4.dateText {
+    font-style: italic;
+    margin-left: 5%;
 }
 
 /* Wrapper */
