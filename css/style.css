@@ -50,10 +50,15 @@ canvas{
   margin-right: 5%;
 }
 
+.collaborators {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 /* Media query for responsive design on mobile devices */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
   /* For mobile phones: */
-  img {
+  img, .gifs {
     width: 90%;
   }
   #text {
