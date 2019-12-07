@@ -45,11 +45,6 @@ canvas{
   vertical-align: bottom;
 }
 
-.gifs {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
 .collaborators {
   margin-left: 5%;
   margin-right: 5%;
@@ -64,6 +59,35 @@ canvas{
   #text {
     padding-bottom: 400px;
   }
+}
+
+.project {
+    height: 40%;
+    width: 30%;
+}
+
+#mobile-projects {
+    display: flex;
+}
+
+#projects {
+    display: grid 
+}
+
+.gifs {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#supercyper {
+    width: 30%;
+}
+
+#supercypher-img {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
 }
 
 /* Laptop/desktop screens */
