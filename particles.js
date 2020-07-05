@@ -21,8 +21,6 @@ var pJS = function(tag_id, params){
 
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
   var randomColor = getColor();
-  //document.getElementById('description').style.color = randomColor.valueOf();
-  document.getElementById('tufts').style.color = randomColor.valueOf();
   var links = document.getElementsByClassName('links')
   for (var i = 0; i < links.length; i++) {
     links[i].style.color = randomColor.valueOf();
@@ -36,7 +34,7 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 400,
+        value: 10,
         density: {
           enable: true,
           value_area: 800
@@ -52,7 +50,7 @@ var pJS = function(tag_id, params){
           color: randomColor.valueOf()
         },
         polygon: {
-          nb_sides: 5
+          nb_sides: 7
         },
         image: {
           src: '',
@@ -61,11 +59,11 @@ var pJS = function(tag_id, params){
         }
       },
       opacity: {
-        value: 1,
+        value: 0.9,
         random: false,
         anim: {
           enable: false,
-          speed: 2,
+          speed: 0.1,
           opacity_min: 0,
           sync: false
         }
@@ -75,7 +73,7 @@ var pJS = function(tag_id, params){
         random: false,
         anim: {
           enable: false,
-          speed: 10,
+          speed: 0,
           size_min: 0,
           sync: false
         }
@@ -89,7 +87,7 @@ var pJS = function(tag_id, params){
       },
       move: {
         enable: true,
-        speed: 2,
+        speed: 0.25,
         direction: 'none',
         random: false,
         straight: false,
