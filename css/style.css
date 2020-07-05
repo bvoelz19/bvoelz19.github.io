@@ -64,6 +64,10 @@ canvas{
   #text {
     padding-bottom: 400px;
   }
+  #text{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 /* Laptop/desktop screens */
