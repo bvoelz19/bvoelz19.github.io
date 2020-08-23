@@ -17,14 +17,28 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <script>
+    var darkMode = false;
+
+    function setDarkMode() {
+      darkMode = !darkMode;
+      console.log("setDarkMode, now: " + !darkMode);
+      var body = document.getElementById('particles-js');
+      if (darkMode) {
+        body.style.backgroundColor = "#000000";
+      } else {
+        body.style.backgroundColor = "#ffffff";
+      }
+    }
+  </script>
 </head>
 <body>
-
 <div id="particles-js">
   <div id="text">
   <div id="title">Brendan Voelz</div>
   <div id="description">I'm a Software Development Engineer at <a id='currentEmployer' title="Amazon" href="https://amazon.com">Amazon.com</a><br></div>
   <div id="links">
+        <a onclick="setDarkMode()"><i class="far fa-moon fa-2x"></i></a>
         <a href="./resume.pdf"><i class="far fa-file fa-2x"></i></a>
         <a href="./projects.html" title="Projects"><i class="far fa-folder-open fa-2x"></i></a>
         <a href="https://linkedin.com/in/brendanvoelz" title="LinkedIn"><i class="fab fa-linkedin-in fa-2x"></i></a>

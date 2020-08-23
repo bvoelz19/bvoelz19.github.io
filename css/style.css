@@ -45,6 +45,11 @@ canvas{
   vertical-align: bottom;
 }
 
+#darkModeButton {
+  margin-left: 80%;
+  margin-top: 5%;
+}
+
 .gifs {
   margin-left: 5%;
   margin-right: 5%;
