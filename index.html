@@ -29,6 +29,8 @@
       } else {
         body.style.backgroundColor = "#ffffff";
       }
+      var darkModeIcon = document.getElementById('');
+      darkModeIcon.style.color = "#3B5998";
     }
   </script>
 </head>
@@ -38,7 +40,7 @@
   <div id="title">Brendan Voelz</div>
   <div id="description">I'm a Software Development Engineer at <a id='currentEmployer' title="Amazon" href="https://amazon.com">Amazon.com</a><br></div>
   <div id="links">
-        <a onclick="setDarkMode()"><i class="far fa-moon fa-2x"></i></a>
+        <a href="javascript:void(0);" onclick="setDarkMode()"><i class="far fa-moon fa-2x"></i></a>
         <a href="./resume.pdf"><i class="far fa-file fa-2x"></i></a>
         <a href="./projects.html" title="Projects"><i class="far fa-folder-open fa-2x"></i></a>
         <a href="https://linkedin.com/in/brendanvoelz" title="LinkedIn"><i class="fab fa-linkedin-in fa-2x"></i></a>
